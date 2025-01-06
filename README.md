@@ -62,6 +62,9 @@ It can be used mainly for few of the below purposes.
 - Text Summarization
 - Q & A
 
+# Things pending to Learn
+
+- Transformers
 
 
 
