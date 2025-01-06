@@ -53,6 +53,16 @@ ChatGPt is trained on 500 billions of parameters.
 ### Fine Tuning 
 We can tune an existing LLM model to fine tune to further for a specific purpose, For example training a model with medical language.  
 
+## Use cases for LLM
+It can be used mainly for few of the below purposes. 
+
+- Content Generation 
+- Chatbots and Virtual Assistants
+- Language Translation
+- Text Summarization
+- Q & A
+
+
 
 
 
