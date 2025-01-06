@@ -39,3 +39,21 @@ LLM uses neural networks behind the scene to process and predict word by word an
 
 Below is a diagram which represents how neural networks works.
 ![Neural networks](https://github.com/user-attachments/assets/bf8dc85a-df09-4501-897f-f7fd00981ccf)
+
+## Key Points on LLM
+
+### Pre Training on LLM
+LLM are trained on huge corpus of data that is why it is used as Large Language Model to help with language, sentiment, grammar etc.
+ChatGPT is trained on more than 500GB of text data which includes entire wikipedia etc. 
+
+### Size and Scale
+It uses massive amount of neural networks such as transformers with billions of parameters to train the model. Higher the number of parameter better the performance of your model.
+ChatGPt is trained on 500 billions of parameters. 
+
+### Fine Tuning 
+We can tune an existing LLM model to fine tune to further for a specific purpose, For example training a model with medical language.  
+
+
+
+
+
