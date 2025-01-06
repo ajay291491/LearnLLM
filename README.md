@@ -21,8 +21,6 @@ They are the replication of how human brain operates with cluster of neurons to 
 Below is a hierarchical diagram which described how each of these are linked
 ![Diagram](https://github.com/user-attachments/assets/9876b90f-75b7-432a-a178-e7dbea29a1e3)
 
-Below is a diagram which represents how neural networks works. 
-![Neural networks](https://github.com/user-attachments/assets/bf8dc85a-df09-4501-897f-f7fd00981ccf)
 
 ## What is Garbage in - Garbage Out Terminology
 When we train a model with a garbage data it can produce only garbage output which are not fit for the purpose 
@@ -37,3 +35,7 @@ It is designed for natural language understanding and generation, specifically i
 ## What is Large Language Model (LLM)
 Large language Models (LLMs) are powerful artificial intelligence models designed for understanding and generating human like text. just like auto proposed words while typing in WhatsApp.
 LLM only handles text generation in the LLM, it is not responsible for image or audio or music or code or video. 
+LLM uses neural networks behind the scene to process and predict word by word and produce the result. It only predicts one next word at a time and provide as output.
+
+Below is a diagram which represents how neural networks works.
+![Neural networks](https://github.com/user-attachments/assets/bf8dc85a-df09-4501-897f-f7fd00981ccf)
