@@ -62,6 +62,38 @@ It can be used mainly for few of the below purposes.
 - Text Summarization
 - Q & A
 
+## What is a Prompt Engineering
+
+Prompt is a specific question, command or input that you provide to an AI system to request a particular response, information or action. 
+To get better results you will need to ask questions with more relevant context, that is what Prompt engineering standards for. 
+
+For example the type of below two questions may vary its response and accuracy. 
+
+- How is the weather look like in Bangalore 
+  - Ans : The current weather in Bangalore is partly cloudy with temperatures around 29°C during the day and 14°C at night
+- How is the weather look like in Bangalore during June Month 
+  - Ans : In June, Bangalore typically experiences hot and humid weather with temperatures ranging from 21°C to 30°C. It's also the beginning of the monsoon season, so you can expect high rainfall, averaging around 125 mm for the month. There are usually about 5 days of rain during this time)
+
+## How to create a better Prompts 
+To get better results always make sure we write better prompts while asking question to LLM / GPT, few of the considerations could be 
+
+- Clearly convey the 'desired response' 
+- Provide 'context or background' information
+- Balance 'Simplicity and Complexity'
+- Iterative 'testing and refinement'
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Things pending to Learn
 
 - Transformers
