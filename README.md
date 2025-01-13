@@ -123,6 +123,18 @@ For simplicity, we'll use a lower-dimensional space (3 dimensions) to illustrate
 With this vector embedding of tokens now the model will be able to understand difference between King and Man and its relation, similarly Queen and Woman as well.
 This representation is only in 3 dimension but in reality it will higher multi dimension with various pointers.
 
+### What is Fine-Tuning
+
+Fine-Tuning is the process of adjusting a pre-trained model to a specific tasks according to the use case. For example GPT models like OpenAI, LLaMA, Amazon Q and Gemini are general purpose models. 
+In case you want to use them for some other specific purpose for your business use cases you need to additionally fine tun ethem with addition information.
+For example if you want to use them for medical, you will need to fine tune the model with how diagnosis done for various different decease and scenarios.
+
+Below are few of the Fine-Tuning techniques
+
+- Self Supervised Learning : Here we provide a large pile of data which is needed to fine tune the model with 'domain specific knowledge'
+- Supervised Learning      : This is labelled training data given to a model with custom definition on the purpose of input given. 
+- Reinforcement Learning   : This is reward based learning program where you give high and low score of its accuracy and over period of time model will learn how to improve the model based on the feedback.  
+
 
 
 
