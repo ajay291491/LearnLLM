@@ -135,7 +135,8 @@ Below are few of the Fine-Tuning techniques
 - Supervised Learning      : This is labelled training data given to a model with custom definition on the purpose of input given. 
 - Reinforcement Learning   : This is reward based learning program where you give high and low score of its accuracy and over period of time model will learn how to improve the model based on the feedback.  
 
-## LLM Use Cases 
+# Module 03 : Understanding LLM Use Cases
+
 LLM can be used for various different scenarios within technology and non-tech use cases. 
 
 ### Software Development  
@@ -249,10 +250,21 @@ if __name__ == "__main__":
             logging.info(f"Outage detected! Tracking ID: {outage['tracking_id']}, Description: {outage['description']}")
     else:
         logging.info('No service health outages detected in the last hour.')
+        
+# Explanation:
+Class Initialization: The AzureServiceHealth class is initialized with tenant_id, client_id, and client_secret.
+Authentication: The get_access_token method authenticates with Azure AD to obtain an access token.
+Fetch Alerts: The fetch_service_health_alerts method fetches service health alerts from the Azure Service Health API, filtered for the last hour.
+Check for Outages: The check_for_outages method processes the alerts, identifies outages, and collects their tracking IDs and descriptions.
+Logging and Error Handling: Proper logging and error handling are included to ensure reliability.
+Make sure to replace your_tenant_id, your_client_id, and your_client_secret with your actual Azure credentials. This code sets up a reliable system to monitor Azure Service Health and alert based on service health outages. If you need any more tweaks or have questions, feel free to ask!
+
 
 ```
 
-- Software Testing      : 
+### Software Testing
+
+
 
 
 
