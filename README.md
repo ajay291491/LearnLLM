@@ -258,11 +258,26 @@ Fetch Alerts: The fetch_service_health_alerts method fetches service health aler
 Check for Outages: The check_for_outages method processes the alerts, identifies outages, and collects their tracking IDs and descriptions.
 Logging and Error Handling: Proper logging and error handling are included to ensure reliability.
 Make sure to replace your_tenant_id, your_client_id, and your_client_secret with your actual Azure credentials. This code sets up a reliable system to monitor Azure Service Health and alert based on service health outages. If you need any more tweaks or have questions, feel free to ask!
-
-
 ```
 
 ### Software Testing
+LLM can be used to test software as well where you can ask LLM on multiple use cases, make sure we provide below info while defining prompts 
+- Generate test case scenarios for some code requirements 
+- What language and testing framework you want to use 
+
+### Requirement Gathering
+You can use LLM to create requirements to create user stories and epics and generate requirements, make sure you design a prompt with
+- Define your role and relation to the product 
+- Name of the product and key terminologies and definitions
+- What the key functions and features of the product 
+- Who will be the consumers and what are going to be its intergrations etc 
+
+### Documentation 
+You can use LLM to create documentation to create user stories and epics and generate requirements, make sure you design a prompt with
+- Define who is going to be the consumer for the documentation 
+- Name of the product and key terminologies and definitions
+- What the key functions and features of the product
+- What are going to be its integrations etc
 
 
 
