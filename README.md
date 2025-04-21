@@ -16,7 +16,7 @@ For training models you will need huge amount of data and algorithms which can u
 
 Deep learning is used to deal with much more complex problems in machine learning not only for identifying objects or taking simple decission.
 They are the replication of how human brain operates with cluster of neurons to process some information and get an output out of that.
-'Neural network' is one of the ket technology used to perform Deep learning to solve the complex problems.
+'Neural network' is one of the key technology used to perform Deep learning to solve the complex problems.
 
 Below is a hierarchical diagram which described how each of these are linked
 ![Diagram](https://github.com/user-attachments/assets/9876b90f-75b7-432a-a178-e7dbea29a1e3)
@@ -280,7 +280,12 @@ You can use LLM to create documentation to create user stories and epics and gen
 - What are going to be its integrations etc
 
 
-# Module 04 : Creating a chatbot
+# Module 04 : Understanding BERT - An essential NLP Algorithm by Google 
+BERT stands for bidirectional encoder representation from Transformers  
+- Encoder Representation    : This is a language modelling system which pre=trained with unlabelled data which then gets fine-tuned for its purpose.
+- Derived from Transformers : This is an algorithm derived from Transformers powerful NLP algorithm, defined the architecture of BERT. 
+- Bidirectional Contexts    : Uses left and right contxt when dealing with a word, defines the training process.  
+
 
 - WIP
 
